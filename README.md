@@ -77,6 +77,16 @@ Instead of relying on static pre-packaged palettes or a monolithic GNOME install
 
 ---
 
+## 💡 Used in [Minflair](https://github.com/t4lentles5/minflair)
+
+This fork is actively maintained and integrated into **[Minflair](https://github.com/t4lentles5/minflair)**, a custom Hyprland environment for Arch Linux built around dynamic theming and Quickshell:
+
+- **Color Extraction**: Wallpapers are processed with a Python script utilizing ImageMagick histograms to dynamically extract dominant and accent colors.
+- **Dynamic CSS Injection**: Quickshell executes an `apply_theme.py` script to generate `gtk-3.0/colors.css` and `gtk-4.0/colors.css` whenever the theme or wallpaper changes.
+- **Full Desktop Cohesion**: GTK3 and GTK4 / Libadwaita applications seamlessly update alongside Hyprland borders, Neovim, Kitty, Starship, and Qt.
+
+---
+
 ## 🙏 Acknowledgements & Upstream
 
 - Original theme by [SakibShahariar](https://github.com/SakibShahariar/material-gnome-theme)
