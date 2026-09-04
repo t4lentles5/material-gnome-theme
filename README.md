@@ -59,7 +59,7 @@ Instead of relying on static pre-packaged palettes or a monolithic GNOME install
 
 1. **Clone to local themes directory**:
    ```bash
-   git clone git@github.com:t4lentles5/material-gnome-theme.git ~/.themes/Material-Gnome
+   git clone https://github.com/t4lentles5/material-gnome-theme.git ~/.themes/Material-Gnome
    ```
 
 2. **Set as active GTK Theme**:
